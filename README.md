@@ -1,9 +1,9 @@
 # Tarea conversiones
-##Programación orientada a objetos
-###Farith Antonio Segura Yara
-###Juan Esteban Garcia Tarquino
+## Programación orientada a objetos
+### Farith Antonio Segura Yara
+### Juan Esteban Garcia Tarquino
 
-#Objetivos
+# Objetivos
 
 - Convertir valores ingresados por un usuario entre los distintos tipos de variables primitivos existentes.
 
@@ -11,7 +11,7 @@
 
 - Utilizar las herramientas dadas para escanear e imprimir valores por consola en el programa Netbeans
 
-####Javascript
+#### Javascript
 
 ```javascript
 import java.util.Scanner;
@@ -39,4 +39,4 @@ String nombreBase64 = Base64.getEncoder().encodeToString(nombre.getBytes());
 ```
 - Para realizar la conversión de las variables obtenidas en los valores ingresados por el usuario Observamos como se utiliza la creación de una nueva variable de almacenamiento y en esta ingresamos el valor que queremos convertir ya sea para Double,Float o Integer
 
-##GRACIAS
+## GRACIAS
