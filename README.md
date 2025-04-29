@@ -42,4 +42,18 @@ String nombreBase64 = Base64.getEncoder().encodeToString(nombre.getBytes());
 ```
 - Para realizar la conversión de las variables obtenidas en los valores ingresados por el usuario Observamos como se utiliza la creación de una nueva variable de almacenamiento y en esta ingresamos el valor que queremos convertir ya sea para Double,Float o Integer
 
+```javascript
+ for (int i=0; i < len; i++) {
+          int nm_ascii = (int) nombre.charAt(i);
+           System.out.print(car+" ");
+}
+```
+- Lo que nos compete acerca del código, principalmente, se encuentra dentro del bucle. "nm_ascii" significa numerical ascii, o sea que lo que nos ayuadará a mostrar dicha variable es el valor numérico asociado a un caracter ASCII. Cada caracter que se usa en ek código ASCII está asociado a un número y viceversa, cada número del código ASCII está asociado a un caracter. Tiene un máximo de 128 caracteres posibles, ya que usa 7 bits para representar todos estos símbolos.
+
+```javascript
+int nm_ascii = (int) nombre.charAt(i);
+```
+- Si prestamos especial atención a este código, nos daremos cuenta de que nm_ascii es una variable de tipo entero. Sin embargo,"nombre.chartAt(i)" es en sí mismo un dato de tipo char, porque está mostrando una letra perteneciente a la cadena que contiene nombre en una cierta posición i. ¿Entonces cómo es posible que una vairable entera tome como identidad un tipo de dato diferente? Por lo que está al frente: "(int)". Esta forma de escritura lo que hace es dictar cuál será el tipo de dato al que convertiremos a otro tipo de dato, en este caso lo convertiremos en entero. Y si convertimos a entero un dato tipo char, obtendremos el número asociado a esa letra o símbolo.  
+
+
 ## GRACIAS
