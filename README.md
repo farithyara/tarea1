@@ -45,7 +45,7 @@ String nombreBase64 = Base64.getEncoder().encodeToString(nombre.getBytes());
 ```javascript
  for (int i=0; i < len; i++) {
           int nm_ascii = (int) nombre.charAt(i);
-           System.out.print(car+" ");
+           System.out.print(nm_ascii+" ");
 }
 ```
 - Lo que nos compete acerca del código, principalmente, se encuentra dentro del bucle. "nm_ascii" significa numerical ascii, o sea que lo que nos ayuadará a mostrar dicha variable es el valor numérico asociado a un caracter ASCII. Cada caracter que se usa en el código ASCII está asociado a un número y viceversa, cada número del código ASCII está asociado a un caracter. Tiene un máximo de 128 caracteres posibles, ya que usa 7 bits para representar todos estos símbolos.
