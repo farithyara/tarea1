@@ -2,6 +2,7 @@
 ## Programación orientada a objetos
 ### Farith Antonio Segura Yara
 ### Juan Esteban Garcia Tarquino
+### Edwin Mauricio Padilla Pelufo
 
 # Objetivos
 
@@ -10,6 +11,8 @@
 - Observar los rangos de algunos tipos de variables primitivas como lo son (integer,Double,Float)
 
 - Utilizar las herramientas dadas para escanear e imprimir valores por consola en el programa Netbeans
+
+- Evidenciar cómo el código ASCII relaciona los datos enteros con los datos de tipo caracter, y que es posible hacer una conversión entre ellos. 
 
 #### Javascript
 
