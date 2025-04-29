@@ -44,9 +44,9 @@ public class JavaApplication10 {
         // necesitamos saber hasta donde llegar.
         System.out.println("tu nombre en ascii es: ");
         for (int i = 0; i < len; i++) { //con este bucle recorremos el nombre letra a letra de inicio a fin y la convertimos en un numero de la tabla ascii
-            int car = (int) nombre.charAt(i); // lo que hace nombre.charAt(i) es mostrar el caracter que se encuentra en la posicion "i"
+            int nm_ascii = (int) nombre.charAt(i); // lo que hace nombre.charAt(i) es mostrar el caracter que se encuentra en la posicion "i"
                                               //de la variable nombre. "(int)"convierte a entero ascii el caracter nombre.charAt(i).
-            System.out.print(car+" "); //System.out.print no agrega un salto de linea al final como println. Aqui se puede imprimir 
+            System.out.print(nm_ascii+" "); //System.out.print no agrega un salto de linea al final como println. Aqui se puede imprimir 
                                     //horizontalmente creando un espacio vacio entre los elementos
         }
         System.out.println("\n"); // para que la ejecucion del programa no se vea extraña se añade un salto de linea.
